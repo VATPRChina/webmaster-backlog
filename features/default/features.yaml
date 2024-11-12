@@ -5,4 +5,9 @@ namespace:
 segments:
     - key: AIRAC-2412
       name: AIRAC-2412
+      constraints:
+        - type: DATETIME_COMPARISON_TYPE
+          property: current_time
+          operator: gte
+          value: "2024-11-28T01:00:00+09:00"
       match_type: ALL_MATCH_TYPE
