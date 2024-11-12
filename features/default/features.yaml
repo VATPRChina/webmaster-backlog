@@ -2,6 +2,11 @@ version: "1.4"
 namespace:
     key: default
     name: Default
+flags:
+    - key: test-flag
+      name: Test-Flag
+      type: BOOLEAN_FLAG_TYPE
+      enabled: false
 segments:
     - key: AIRAC-2412
       name: AIRAC-2412
