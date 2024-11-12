@@ -1,0 +1,8 @@
+version: "1.4"
+namespace:
+    key: default
+    name: Default
+segments:
+    - key: AIRAC-2412
+      name: AIRAC-2412
+      match_type: ALL_MATCH_TYPE
